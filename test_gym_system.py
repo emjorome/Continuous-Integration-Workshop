@@ -12,4 +12,4 @@ def test_special_offer_200_req5():
 
 def test_validation_req7_logic():
     # Si la cantidad de personas es 0, debe retornar -1 (Error)
-    assert calculate_total(100, 0, 0, False) == -1
+    assert calculate_total(100, 0, 0, False) == -1
